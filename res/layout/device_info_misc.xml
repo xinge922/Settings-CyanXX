@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="165dp"
+    android:scaleType="fitXY"
+    android:src="@drawable/xinge_logo" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:shrinkColumns="1"
+        android:stretchColumns="1"
+        android:gravity="center"
+        android:paddingTop="10dip"
+        android:paddingBottom="5dip"
+        android:background="@*android:drawable/alert_dark_frame"
+        >
+        <!--TableRow>
+            <TextView
+                style="?android:attr/preferenceInformationStyle"
+                android:text="@string/nones"
+            />
+        </TableRow-->
+        <TableRow android:paddingTop = "1dip">
+            <TextView
+                style="?android:attr/preferenceInformationStyle"
+                android:text="@string/model_numbers"
+            />
+            <TextView android:id="@+id/model_numbers"
+                style="?android:attr/preferenceInformationStyle"
+            />
+        </TableRow>
+
+        <TableRow android:paddingTop = "1dip">
+            <TextView
+                style="?android:attr/preferenceInformationStyle"
+                android:text="@string/firmware_versions"
+            />
+            <TextView android:id="@+id/firmware_versions"
+                style="?android:attr/preferenceInformationStyle"
+            />
+        </TableRow>
+
+        <TableRow android:paddingTop = "1dip">
+            <TextView
+                style="?android:attr/preferenceInformationStyle"
+                android:text="@string/kernel_versions"
+            />
+            <TextView android:id="@+id/kernel_versions"
+                style="?android:attr/preferenceInformationStyle"
+            />
+        </TableRow>
+
+        <TableRow android:paddingTop = "1dip">
+            <TextView
+                style="?android:attr/preferenceInformationStyle"
+                android:text="@string/max_cpus"
+            />
+            <TextView android:id="@+id/max_cpus"
+                style="?android:attr/preferenceInformationStyle"
+            />
+        </TableRow>
+
+        <TableRow android:paddingTop = "1dip">
+            <TextView
+                style="?android:attr/preferenceInformationStyle"
+                android:text="@string/device_memory"
+            />
+            <TextView android:id="@+id/device_memorys"
+                style="?android:attr/preferenceInformationStyle"
+            />
+        </TableRow>
+        <!--TableRow android:paddingTop = "1dip">
+             <TextView
+                style="?android:attr/preferenceInformationStyle"
+                android:text="@string/device_cpu"
+            />
+            <TextView android:id="@+id/device_cpus"
+                style="?android:attr/preferenceInformationStyle"
+            />
+        </TableRow-->
+
+        <TableRow android:paddingTop = "1dip">
+            <TextView
+                style="?android:attr/preferenceInformationStyle"
+                android:text="@string/nones"
+            />
+        </TableRow>
+    </TableLayout>
+</LinearLayout>
+
